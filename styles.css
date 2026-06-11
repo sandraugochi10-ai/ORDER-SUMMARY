@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e6ebff;
+    display: flex;
+    justify-content: center;
+    font-family: "inter", sans-serif;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.card{
+    width:  380px;
+    background-color: white;
+    border-radius:20px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.hero{
+    background: white;
+    text-align: center;
+    padding: 30px;
+    
+}
+
+.hero img {
+    width: 340px;
+}
+
+.content{
+    padding: 30px;
+    margin-bottom: 15px;
+}
+.content h1{
+    
+    color: #1f2f56;
+    margin-bottom: 15px;
+
+}
+
+.content p{
+    color: #7280a7;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.Plan-box{
+    display: flex;
+    align-items: center;
+    background: #f5f6ff;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 25px;
+    justify-content: space-between;
+
+
+}
+
+.plan-info h4{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.plan-info h4{
+    color: #1f2f56;
+
+}
+
+.plan-info span{
+    color: #7280a7;
+    font-size: 14px;
+
+}
+
+.plan-info a {
+    color: #382ae1;
+    font-weight: bold;
+
+}
+
+.payment-btn{
+    width: 100%;
+    background: #382ae1;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 12px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(56, 42, 225, 0.3);
+    
+}
+
+.payment-btn:hover {
+    background: #4b3eff;
+
+}
+
+.cancel-btn{
+    background: none;
+    border: none;
+    color: #7280a7;
+    font-weight: bold;
+    cursor: pointer;
+}
