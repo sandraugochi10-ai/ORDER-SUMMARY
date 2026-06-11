@@ -112,3 +112,61 @@ body {
     font-weight: bold;
     cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+    body{
+        padding: 20px;
+    }
+    .card{
+        width:100%;
+        max-width: 350px;
+    }
+    .hero img{
+        width: 140px;
+    }
+    .content h1{
+        font-size: 1.5rem;
+
+    }
+    .content p{
+        font-size: 14px;
+    }
+    .Plan-box{
+        padding: 12px;
+    }
+    .payment-btn{
+        padding: 14px;
+    }
+@media screen and (min-width: 481px) and (max-width: 1024px){
+    body{
+        padding: 30px;
+    }
+    .card{
+        width: 450px;
+    }
+    .hero img{
+        width: 170px;
+    }
+    .content h1{
+        font-size: 2rem;
+    }
+    .content p{
+        font-size: 16px;
+    }
+    
+}
+@media screen and (min-width: 1025px) {
+    .card{
+        width: 450px;
+    }
+    .hero img{
+        width: 190px;
+    }
+    .content h1{
+        font-size: 2.2rem;
+    }
+    .content p{
+        font-size: 16px;
+    }
+}
+}
